@@ -1,0 +1,143 @@
+stomach -- fdba2fb527acfdb498d563a32ff4c516af4a7578058704c7a96cc8a239f64096/341cd39177d1f289f4d02560ac0e6487.mp4
+feet -- fdba2fb527acfdb498d563a32ff4c516af4a7578058704c7a96cc8a239f64096/ad5f8be22520f8a5cd7f76b69ead0962.mp4
+oiled up -- fdba2fb527acfdb498d563a32ff4c516af4a7578058704c7a96cc8a239f64096/aa54055972595fcbf992dba7bc198777.mp4
+sissy - fdba2fb527acfdb498d563a32ff4c516af4a7578058704c7a96cc8a239f64096/7b6cd4bab97f356e2dff6844c98fbc49.mp4
+
+
+
+
+NerdyCMS fixes:
+2. Fix image gallery upload: “Warning: Undefined array key 17 in /home/Nerdy/web/herhd.com/public_html/_ncms/classes/ents.php on line 534” ??
+7. Liked Models (customer profile) error:  Warning: Undefined variable $nn in /home/Nerdy/web/herhd.com/public_html/_ncms/classes/ents.php on line 563 //
+7a. Liked videos //
+8. Contact & Support Email:  Not working…???
+3.  We need to add logic for videos shot on mobile phones in Portrait format.....like this.  https://mxtomie.digital/video?_video=real-sensual-pegging
+4. Add html “Shop” page code
+
+
+6. Add https://affiliates.aquete.com tracking code //
+5. Add Redgifs/reddit and Twitter auto uploads //
+
+9. fix authorize hooks //
+
+10. add cats page like: https://www.camperks.com/categories/ //
+11. multiple cats per video //
+18. cats and tags pages //
+
+12. <title> control on custom pages //
+13. alias of on custom pages [with title/header] //
+
+14. include {{video-results}} in custom pages  //
+15. rework html editor //
+
+16. Report content button on footer -> https://form.jotform.com/212364216238047 //
+
+17. meta keywords and description on blog  / custom pages  //
+
+18. tags and cats page in menu system //
+19. clear cache feature //
+
+21. fix email going to judd mxtomie //
+24. check moody trailer post //
+
+22. check sitemap good ??
+23. add to google image search ??
+
+1. Add Free and Premium Pricing for Live Streaming
+
+
+
+20. "progress" on video processing  //
+
+15b. add BB-CODES to HTML editor
+25. add twitter post page
+26. add canonial url settings //
+28. update current sites
+
+
+27. fix trailer url //
+
+-------------------------------------------------------------------------
+common 3rd changes:
+
+nav.php, landing.php, uploaded her logos, straight.html, footer.php, head-main.php
+header-main.php, footer.php
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+1) Finish Optimize - NerdyCMS
+-- console commands //
+-- runner logs //
+-- console logs - skip
+-- SFU task //
+-- sitemap task <- cron skip for now
+-- admin icons //
+-- vendor includes //
+--- push
+--- drop
+--- social auth
+
+2) Auto installer Fix - NerdyCMS 
+3) Affiliates - NerdyCMS & Aquete
+4) Add RSS Feed- NerdyCMS
+5) Test Suspended and Renewal Hooks - Aquete
+6) Stats - Aquete
+
+SECURE PAID VIDEOS!!!
+QUICK SETTINGS? 
+SECURE CHAT
+404 both ends //
+
+1.) User Admin Role Access – broken
+2.) New Videos not sorted based on date //
+3.) Add password in admin for when admin adds a new member manually //
+4.) Add Open Graph Meta Data to pages//
+o	view-source:https://blog.nerdycms.com/posts/understanding-the-benefits-of-push-notifications-on-your-website – works 
+
+should we fix these before the installer fix?
+
+ALTER TABLE video DROP COLUMN `view_price`;
+ALTER TABLE video ADD COLUMN `premium_member_view_price` decimal(10,2) DEFAULT NULL;
+ALTER TABLE video ADD COLUMN `free_member_view_price` decimal(10,2) DEFAULT NULL;
+
+ALTER TABLE custom_page ADD COLUMN `page_title` varchar(64) DEFAULT NULL;
+ALTER TABLE custom_page ADD COLUMN `alias_of` varchar(64) DEFAULT NULL;
+ALTER TABLE custom_page ADD COLUMN `aliased_header` varchar(64) DEFAULT NULL;
+
+
+
+CREATE TABLE `wal_trans` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `tuser_id` int(11) DEFAULT NULL,
+  `tdatetime` datetime DEFAULT NULL,
+  `ttype` varchar(128) DEFAULT NULL,
+  `tinfo` text DEFAULT NULL,
+  `pitem_id` int(11) DEFAULT NULL,  
+  `pitem_type` varchar(64) DEFAULT NULL,
+  `tamount` decimal(10,2) DEFAULT NULL,
+  `tref` varchar(64) DEFAULT NULL,
+  `tstatus` varchar(64) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+); 
+
+custom_page.body to mediumtext;
+video.category to text;
+
+
+
+alter table video rename column category to category_old;
+alter table video add column category text;
+update video set category=category_old;
+
+
+ALTER TABLE custom_page ADD COLUMN `keywords` TEXT NULL;
+ALTER TABLE custom_page ADD COLUMN `description` TEXT NULL;
+
+ALTER TABLE blog ADD COLUMN `keywords` TEXT NULL;
+ALTER TABLE blog ADD COLUMN `description` TEXT NULL;
+
+
+POST 'https://api.twitter.com/2/oauth2/token' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'refresh_token=bWRWa3gzdnk3WHRGU1o0bmRRcTJ5VUxWX1lZTDdJSUtmaWcxbTVxdEFXcW5tOjE2MjIxNDc3NDM5MTQ6MToxOnJ0OjE' \
+--data-urlencode 'grant_type=refresh_token' \
+--data-urlencode 'client_id=rG9n6402A3dbUJKzXTNX4oWHJ'
