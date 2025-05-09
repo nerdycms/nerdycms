@@ -1,0 +1,6 @@
+{
+    "require": {
+        "kunalvarma05/dropbox-php-sdk": "^0.4.2",
+        "minishlink/web-push": "^8.0"
+    }
+}
