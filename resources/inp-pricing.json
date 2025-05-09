@@ -1,0 +1,19 @@
+{
+    "title": "pricing",        
+    "help": "pricing help",        
+    "groups": [
+        {
+            "style": "basic",        
+            "elements": ["name","description","hint","amount","duration","duration_unit","occurences","trial_amount","trial_occurences"],
+            "layouts": {
+                "_default": "6"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "duration": "select||7|14|30|60|90|120|180|360",
+        "duration_unit":"select||days",
+        "occurences":"select||1|4|12|24|48"                
+    }
+}

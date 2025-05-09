@@ -1,0 +1,25 @@
+{
+    "title": "dropbox details",        
+    "help": "dropbox help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["enabled"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["key","secret","access_token","folders"],
+            "layouts": {
+                "_default": "4",
+                "folders": "12"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "enabled": "check"
+    }
+}

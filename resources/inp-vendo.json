@@ -1,0 +1,24 @@
+{
+    "title": "vendo details",        
+    "help": "vendo help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["enabled"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["site_id","success_url","decline_url"],
+            "layouts": {
+                "_default": "4"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "enabled": "check"
+    }
+}

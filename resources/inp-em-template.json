@@ -1,0 +1,20 @@
+{
+    "title": "email template",        
+    "help": "template help",        
+    "groups": [{
+        "style": "basic",        
+        "elements": [
+            "email_subject",
+            "tpl_key",    
+            "body"    
+        ],
+        "layouts": {
+            "_default": "6",
+            "body": "12"    
+        }
+    }],
+    "types": {
+        "_default": "input",
+        "body": "edit"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "title": "basic seo settings",        
+    "help": "seo help",        
+    "groups": [{
+        "style": "basic",        
+        "elements": [
+            "site_name",
+            "site_title",
+            "site_description",
+            "site_keywords_meta",
+            "google_anayltics_code"
+        ],
+        "layouts": {
+            "_default": "12",
+            "site_name": "6",
+            "site_title": "6"
+        }
+    }],
+    "types": {
+        "_default": "text",
+        "site_name": "input",
+        "site_title": "input"
+    }
+}

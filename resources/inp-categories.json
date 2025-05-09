@@ -1,0 +1,16 @@
+{
+    "title": "video categories",        
+    "help": "categories help",        
+    "groups": [{
+        "style": "basic",        
+        "elements": [
+            "categories"
+        ],
+        "layouts": {
+            "_default": "12"            
+        }
+    }],
+    "types": {
+        "_default": "text"
+    }
+}

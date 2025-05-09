@@ -1,0 +1,27 @@
+{
+    "title": "member",        
+    "help": "member help",        
+    "groups": [{
+            "style": "header",        
+            "elements": ["urole","active","banned"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["username","email","mobile","wallet_balance","signup_domain","sso_token","password"],
+            "layouts": {
+                "_default": "6"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "sso_token": "text",
+        "active": "check",
+        "banned": "check",
+        "password": "password",
+        "urole": "select|Guest|Privileged|Premium"        
+    }
+}

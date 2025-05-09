@@ -1,0 +1,24 @@
+{
+    "title": "google login details",        
+    "help": "google login help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["enabled"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["client_id","client_secret"],
+            "layouts": {
+                "_default": "6"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "enabled": "check"
+    }
+}

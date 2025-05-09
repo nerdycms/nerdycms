@@ -1,0 +1,20 @@
+<?php
+$allIcons = [];
+$allIcons['dashboard'] = "home";
+$allIcons['video-queue'] = "fast-forward";
+$allIcons['seo'] = "cloud-lightning";
+$allIcons['trailers'] = "film";
+$allIcons['videos'] = "tv";
+$allIcons['models'] = "user-plus";
+$allIcons['content'] = "file";
+$allIcons['appearance'] = "image";
+$allIcons['members'] = "users";
+$allIcons['marketing-partnerships'] = "briefcase";
+$allIcons['advertising'] = "bookmark";
+$allIcons['sales'] = "dollar-sign";
+$allIcons['referrals'] = "external-link";
+$allIcons['billing'] = "credit-card";
+$allIcons['storage'] = "folder";
+$allIcons['system'] = "command";
+$allIcons['social login'] = "log-in";
+$allIcons['quick settings'] = "settings";

@@ -1,0 +1,18 @@
+{
+    "title": "page",        
+    "help": "page help",        
+    "groups": [{
+        "style": "basic",        
+        "elements": "customPage",
+        "layouts": {
+            "body": "12",    
+            "_default": "6"            
+        }
+    }],
+    "types": {
+        "_default": "input",
+        "body": "edit",
+        "keywords": "text",
+        "description": "text"
+    }
+}

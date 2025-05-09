@@ -1,0 +1,37 @@
+{
+    "title": "domain details",        
+    "help": "enter details then press submit",        
+    "groups": [
+        {
+            "style": "header",        
+            "elements": ["sexuality","domain_name"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["domain_match","site_title","copyright_name","background_color","text_color","button_color","line_color","custom_homepage","logo_url","custom_register_video_url"],
+            "layouts": {
+                "_default": "3",
+                "logo_url": "6",
+                "custom_register_video_url": "6"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["meta_tags","custom_css","custom_head_code"],
+            "layouts": {
+                "_default": "12"                
+            }
+        }
+        
+    ],
+    "types": {
+        "_default": "input",
+        "sexuality": "select|Straight|Gay",
+        "meta_tags": "text",
+        "custom_css": "text",
+        "custom_head_code": "text"
+    }
+}

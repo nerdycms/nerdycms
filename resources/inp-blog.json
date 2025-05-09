@@ -1,0 +1,30 @@
+{
+    "title": "blog post details",        
+    "help": "blog post help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["slug"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["title","tags","featured_image","body","keywords","description"],
+            "layouts": {
+                "_default": "6",
+                "featured_image": "12",
+                "body": "12"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "body": "edit",
+        "keywords": "text",
+        "description": "text",
+        "featured_image": "image",
+        "tags": "tags|$blog|title"
+    }
+}

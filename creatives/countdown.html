@@ -1,0 +1,140 @@
+{{doc}}
+    <head>
+                <base href = "{{data|vdir}}creatives/" />
+        <!-- Load Core CSS 
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/core/bootstrap-3.3.7.min.css">
+        <link rel="stylesheet" href="assets/css/core/animate.min.css">
+        
+        <!-- Load Main CSS 
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/main/main.css">
+        <link rel="stylesheet" href="assets/css/main/setting.css">
+        <link rel="stylesheet" href="assets/css/main/hover.css">
+        
+        <!-- Load Magnific Popup CSS 
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/magnific/magic.min.css">        
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup.css">              
+        <link rel="stylesheet" href="assets/css/magnific/magnific-popup-zoom-gallery.css">
+        
+        <!-- Load OWL Carousel CSS 
+        =====================================-->
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.carousel.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.theme.css">
+        <link rel="stylesheet" href="assets/css/owl-carousel/owl.transitions.css">
+        
+        <!-- Load Color CSS - Please uncomment to apply the color.
+        =====================================      
+        <link rel="stylesheet" href="assets/css/color/blue.css">
+        <link rel="stylesheet" href="assets/css/color/brown.css">
+        <link rel="stylesheet" href="assets/css/color/cyan.css">
+        <link rel="stylesheet" href="assets/css/color/dark.css">
+        <link rel="stylesheet" href="assets/css/color/green.css">
+        <link rel="stylesheet" href="assets/css/color/orange.css">
+        <link rel="stylesheet" href="assets/css/color/purple.css">
+        <link rel="stylesheet" href="assets/css/color/pink.css">
+        <link rel="stylesheet" href="assets/css/color/red.css">
+        <link rel="stylesheet" href="assets/css/color/yellow.css">-->
+        <link rel="stylesheet" href="assets/css/color/pasific.css">
+        
+        <!-- Load Fontbase Icons - Please Uncomment to use linea icons
+        =====================================       
+        <link rel="stylesheet" href="assets/css/icon/linea-arrows-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-basic-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-basic-elaboration-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-ecommerce-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-music-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-software-10.css">
+        <link rel="stylesheet" href="assets/css/icon/linea-weather-10.css">--> 
+        <link rel="stylesheet" href="assets/css/icon/font-awesome.css">
+        <link rel="stylesheet" href="assets/css/icon/et-line-font.css">
+        
+
+        <link rel="stylesheet" href="/styles?_theme=flix">
+        <style>
+            .parallax-mirror {
+                filter: blur(8px);
+            }
+        </style>
+    </head>
+    <body  >
+        <!-- Info Area
+        ===================================== -->
+        <div style="" id="info-1" class="pt20 pb20 mt0 parallax-window d-flex align-items-center justify-content-center" data-parallax="scroll" data-speed="0.5" data-image-src="https://new.nerdyvids.com/storage/slides/4KVHQ100638149_UHD.mp4.mp4_013.jpg">
+            <div class="container">
+                <div class="row pt60 ">
+                    <div class="col-md-12 text-left " style="float:none;margin:auto;">
+<!-- Display the countdown timer in an element -->
+<h1 id="demo" class="mt80" style="color:#fff"></h1>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Aug 5, 2024 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+  // Display the result in the element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+
+  // If the count down is finished, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+                    </div>   
+                </div>
+            </div>
+        </div>
+        
+    
+        
+        
+        <!-- JQuery Core
+        =====================================-->
+        <script src="assets/js/core/jquery.min.js"></script>
+        <script src="assets/js/core/bootstrap-3.3.7.min.js"></script>
+        
+        <!-- Magnific Popup
+        =====================================-->
+        <script src="assets/js/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/magnific-popup/magnific-popup-zoom-gallery.js"></script>
+        
+        <!-- Progress Bars
+        =====================================-->
+        <script src="assets/js/progress-bar/bootstrap-progressbar.js"></script>
+        <script src="assets/js/progress-bar/bootstrap-progressbar-main.js"></script>        
+
+        <!-- Text Rotator
+        =====================================-->
+        <script src="assets/js/text-rotator/jquery.simple-text-rotator.min.js"></script>
+        
+        <!-- JQuery Main
+        =====================================-->
+        <script src="assets/js/main/jquery.appear.js"></script>
+        <script src="assets/js/main/isotope.pkgd.min.js"></script>
+        <script src="assets/js/main/parallax.min.js"></script>
+        <script src="assets/js/main/jquery.countTo.js"></script>
+        <script src="assets/js/main/owl.carousel.min.js"></script>
+        <script src="assets/js/main/jquery.sticky.js"></script>
+        <script src="assets/js/main/imagesloaded.pkgd.min.js"></script>
+        <script src="assets/js/main/main.js"></script>
+        
+    </body>
+</html>

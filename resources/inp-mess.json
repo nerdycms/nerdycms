@@ -1,0 +1,32 @@
+{
+    "title": "messaging settings",        
+    "help": "messaging settings help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["enable_email","enable_sms", "enable_push"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },{
+            "style": "basic",        
+            "elements": ["smtp_server","smtp_port","smtp_username","smtp_password"],
+            "layouts": {
+                "_default": "3"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["twilo_sid","twilo_token","twilo_phone_number"],
+            "layouts": {
+                "_default": "4"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "enable_email": "check",
+        "enable_sms": "check",
+        "enable_push": "check"
+    }
+}

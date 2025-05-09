@@ -1,0 +1,1 @@
+<iframe allowtransparency="true" style="background-color:transparent" src="<?=VDIR?>creative?_file=<?=$data[1]?>" margin="0" frameborder="0" height="<?=$data[2]?>" width="100%" scrolling="no"></iframe>

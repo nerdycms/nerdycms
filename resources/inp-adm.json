@@ -1,0 +1,26 @@
+{
+    "title": "admin user",        
+    "help": "admin user help",        
+    "groups": [{
+            "style": "header",        
+            "elements": ["active"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["username","email","mobile","password","access"],
+            "layouts": {
+                "_default": "3",
+                "access": "12"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "active": "check",
+        "password": "password",
+        "access": "tags|$nav"
+    }
+}

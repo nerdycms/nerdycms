@@ -1,0 +1,111 @@
+{
+    "title": "quick settings",        
+    "help": "quick settings help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["maintenance_mode","enable_card","enable_bitcoin"],
+            "layouts": {
+                "_default": "m-1 d-inline-block"
+            }
+        },{            
+            "style": "basic",        
+            "title": "Subscription #1",                                
+            "optional": "sub1_enabled",
+            "elements": [
+                "sub1_name",
+                "sub1_teaser",
+                "sub1_amount",                                
+                "sub1_duration",                
+                "sub1_allowed_payment_methods"
+            ],
+            "layouts": {
+                "_default": "2",
+                "sub1_teaser": "4"
+            }
+        },{            
+            "style": "basic",        
+            "title": "Subscription #2",                                
+            "optional": "sub2_enabled",
+            "elements": [
+                "sub2_name",
+                "sub2_teaser",
+                "sub2_amount",                            
+                "sub2_duration",                
+                "sub2_allowed_payment_methods"
+            ],
+            "layouts": {
+                "_default": "2",
+                "sub2_teaser": "4"
+            }
+        },{            
+            "style": "basic",        
+            "title": "Subscription #3",                                
+            "optional": "sub3_enabled",
+            "elements": [
+                "sub3_name",                
+                "sub3_teaser",
+                "sub3_amount",                
+                "sub3_duration",                
+                "sub3_allowed_payment_methods"
+            ],
+            "layouts": {
+                "_default": "2",
+                "sub3_teaser": "4"
+            }
+        },{            
+            "style": "basic",        
+            "optional": true,
+            "title": "Search engine settings",                    
+            "link": "view all@~admin/seo",                    
+            "elements": [
+                "site_name",
+                "site_title",
+                "site_description",
+                "site_keywords"
+            ],
+            "layouts": {
+                "_default": "6"
+            }
+        },{
+            "style": "basic",        
+            "optional": true,
+            "title": "Content settings",                    
+            "link": "view all@~admin/content-settings",                    
+            "elements": [
+                "require_age_verification",
+                "hide_blog",
+                "hide_chat",
+                "hide_about",
+                "hide_merch",
+                "hide_contact"   
+            ],
+            "layouts": {
+                "_default": "2"
+            }                          
+        }      
+    ],
+    "types": {
+        "_default": "input",
+        "site_description": "text",
+        "site_keywords": "text",
+        "sub1_amount": "money",
+        "sub2_amount": "money",
+        "sub3_amount": "money",
+        "sub1_duration": "select|3 day trial|1 month|3 months|6 months|1 year|2 years",
+        "sub2_duration": "select|3 day trial|1 month|3 months|6 months|1 year|2 years",
+        "sub3_duration": "select|3 day trial|1 month|3 months|6 months|1 year|2 years",
+        "sub1_allowed_payment_methods": "select|card|card+bitcoin|bitcoin",
+        "sub2_allowed_payment_methods": "select|card|card+bitcoin|bitcoin",
+        "sub3_allowed_payment_methods": "select|card|card+bitcoin|bitcoin",
+        "require_age_verification": "check",
+        "hide_blog": "check",
+        "hide_chat": "check",
+        "hide_about": "check",
+        "hide_merch": "check",
+        "hide_contact": "check",
+        "enable_card": "check",
+        "enable_bitcoin": "check",
+        "maintenance_mode": "check"
+    }
+}

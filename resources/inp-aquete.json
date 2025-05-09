@@ -1,0 +1,24 @@
+{
+    "title": "aquete details",        
+    "help": "aquete help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["enabled"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["api_key","embed_token"],
+            "layouts": {
+                "_default": "6"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "enabled": "check"
+    }
+}

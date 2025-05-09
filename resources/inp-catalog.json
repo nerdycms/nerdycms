@@ -1,0 +1,27 @@
+{
+    "title": "catalog item details",        
+    "help": "catalog item help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["item_name"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["item_type","item_name","item_tip","item_dur","wallet_value","aquete_code","item_desc"],
+            "layouts": {
+                "_default": "3",
+                "item_desc": "12"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "item_desc": "text",
+        "item_type": "select|Membership|Wallet",
+        "aquete_code": "select|$pricePoint"
+    }
+}

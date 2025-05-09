@@ -1,0 +1,22 @@
+{
+    "title": "theme",        
+    "help": "theme help",        
+    "groups": [{
+        "style": "header",        
+        "elements": ["light_mode"],
+        "layouts": {
+            "_default": "m-1 float-end"            
+        }
+    },{
+        "style": "basic",        
+        "elements": ["custom_css"],
+        "layouts": {
+            "_default": "12"            
+        }
+    }],
+    "types": {
+        "_default": "input",
+        "custom_css": "text",
+        "light_mode": "check"
+    }
+}

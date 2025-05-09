@@ -1,0 +1,24 @@
+{
+    "title": "bunny storage details",        
+    "help": "bunny storage help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["enabled"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["server","username","password","ftp_dir","http_url","url_token_security_key"],
+            "layouts": {
+                "_default": "4"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "enabled": "check"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "title": "post to twitter",        
+    "help": "post to twitter help",
+    "submitLabel": "post now",
+    "cancelLabel": "skip posting",
+    "groups": [{
+        "style": "basic",        
+        "elements": [
+            "post_body"
+        ],
+        "layouts": {
+            "_default": "12"
+        }
+    }],
+    "types": {
+        "_default": "text"
+    }
+}

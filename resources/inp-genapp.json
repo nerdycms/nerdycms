@@ -1,0 +1,16 @@
+{
+    "title": "general apperance settings",        
+    "help": "general apperance help",    
+    "groups": [          
+        {
+            "style": "basic",        
+            "elements":  ["light_logo","dark_logo","favorite_icon"],
+            "layouts": {
+                "_default": "6"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "file"
+    }
+}

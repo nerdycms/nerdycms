@@ -1,0 +1,19 @@
+{
+    "title": "referral settings",        
+    "help": "referral settings help",    
+    "groups": [  
+        {
+            "style": "basic",        
+            "elements":  ["payout_percent","payout_type","payout_days","payout_limit","member_guide"],
+            "layouts": {
+                "_default": "3",
+                "member_guide": "12"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "payout_type": "select|lifetime|1st payment only",
+        "member_guide": "text"
+    }
+}

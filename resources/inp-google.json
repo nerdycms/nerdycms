@@ -1,0 +1,24 @@
+{
+    "title": "google storage details",        
+    "help": "google storage help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["enabled"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["server","username","password","ftp_dir","http_url"],
+            "layouts": {
+                "_default": "4"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "enabled": "check"
+    }
+}

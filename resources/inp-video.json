@@ -1,0 +1,50 @@
+{
+    "title": "video details",        
+    "help": "enter details then press submit",        
+    "groups": [
+        {
+            "style": "header",        
+            "elements": ["publish_status","show_on_homepage"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },    
+        {
+            "style": "basic",        
+            "elements": ["title","release_date","seo_url","sexuality","quality","free_member_view_price","premium_member_view_price"],
+            "layouts": {
+                "_default": "3",
+                "poster_url": "12",
+                "video_url": "12"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["description","models","category","tags","trailer_url","video_url","poster_url","image_gallery"],
+            "layouts": {
+                "_default": "12",
+                "models": "6",
+                "category": "6"
+            }
+        }
+    ],
+    "types": {
+        "_default": "input",
+        "title": "!input",
+        "trailer_url": "upload",
+        "video_url": "upload",
+        "poster_url": "poster",
+        "image_gallery": "gallery",
+        "show_on_homepage": "check",
+        "live_stream": "live_sel",
+        "live_stream1": "live_stream",
+        "sexuality": "select|Straight|Gay",
+        "category": "tags|$category",
+        "description": "text",
+        "tags": "tags|$tag",
+        "models": "tags|$model",
+        "release_date": "date",
+        "quality": "select|4K|HD|SD",
+        "publish_status": "select|Draft|Published"        
+    }
+}

@@ -1,0 +1,127 @@
+lock screen,Lock screen
+Menu,Menu
+Dashboard,Dashboard
+Apps,Apps
+Calendar,Calendar
+Chat,Chat
+Email,Email
+Inbox,Inbox
+Read_Email,Read Email
+Invoices,Invoices
+Invoice_List,Invoice List
+Invoice_Detail,Invoice Detail
+Contacts,Contacts
+User_Grid,User Grids
+User_List,User List
+Authentication,Authentication
+Login,Login
+Register,Register
+Recover_Password,Recover Password
+Lock_Screen,Lock Screen
+Confirm_Mail,Confirm Mail
+Email_Verification,Email Verification
+Two_Step_Verification,Two Step Verification
+Pages,Pages
+Starter_Page,Starter Page
+Maintenance,Maintenance
+Coming_Soon,Coming Soon
+Timeline,Timeline
+FAQs,FAQs
+Pricing,Pricing
+Error_404,Error 404
+Error_500,Error 500
+Horizontal,Horizontal
+Elements,Elements
+Components,Components
+Alerts,Alerts
+Buttons,Buttons
+Cards,Cards
+Carousel,Carousel
+Dropdowns,Dropdowns
+Grid,Grid
+Images,Images
+Modals,Modals
+Offcanvas,Offcanvas
+Progress_Bars,Progress Bars
+Tabs_n_Accordions,Tabs & Accordions
+Typography,Typography
+Video,Video
+General,General
+Colors,Colors
+Extended,Extended
+Lightbox,Lightbox
+Range_Slider,Range Slider
+SweetAlert_2,SweetAlert 2
+Session_Timeout,Session Timeout
+Rating,Rating
+Forms,Forms
+Basic_Elements,Basic Elements
+Validation,Validation
+Advanced_Plugins,Advanced Plugins
+Editors,Editors
+File_Upload,File Upload
+Wizard,Wizard
+Mask,Mask
+Tables,Tables
+Bootstrap_Basic,Bootstrap Basic
+DataTables,DataTables
+Responsive,Responsive
+Editable,Editable
+Charts,Charts
+Apexcharts,Apexcharts
+Echarts,Echarts
+Chartjs,Chartjs
+Jquery_Knob,Jquery Knob
+Sparkline,Sparkline
+Icons,Icons
+Boxicons,Boxicons
+Material_Design,Material Design
+Dripicons,Dripicons
+Font_Awesome_5,Font Awesome 5
+Maps,Maps
+Google,Google
+Vector,Vector
+Leaflet,Leaflet
+Multi_Level,Multi Level
+Level_1_1,Level 1 1
+Level_1_2,Level 1 2
+Level_2_1,Level 2 1
+Level_2_2,Level 2 2
+Unlimited_Access,Unlimited Access
+Upgrade_Now,Upgrade Now
+Search,Search...
+Notifications,Notifications
+Unread,Unread
+View_More,View More
+Shawn_L,Shawn L
+Profile,Profile
+Billing,Billing
+Settings,Settings
+Lock_screen,Lock screen
+Logout,Logout
+Extra_pages,Extra pages
+Utility,Utility
+menu,Menu
+search,Search
+seo,SEO settings
+seo-group,SEO
+seo help,Updating these details will improve search rankings. SITEMAP LINK: {{domain}}/sitemap-index.xml
+site keywords meta,Site keywords & metadata
+marketing-partnerships,Marketing/Partnerships
+unlimited_access,Unlimited access!
+upgrade_your_plan_from_a_free_trial,Upgrade your plan!
+upgrade_now,Upgrade now!
+poster_url,Poster image
+video_url,Video link/Embed
+seo_url,SEO title
+members,Members
+mass messaging,Mass messaging
+mass message help,Mass message help
+submit,Submit
+send now,Send now
+target,Target
+template,Template
+twitter login help,Callback URL: {{domain}}/social-auth
+google login help,Callback URL: {{domain}}/social-auth
+access,Access blocks
+Access,Access blocks

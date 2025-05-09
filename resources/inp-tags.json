@@ -1,0 +1,16 @@
+{
+    "title": "video tags",        
+    "help": "tags help",        
+    "groups": [{
+        "style": "basic",        
+        "elements": [
+            "tags"
+        ],
+        "layouts": {
+            "_default": "12"            
+        }
+    }],
+    "types": {
+        "_default": "text"
+    }
+}

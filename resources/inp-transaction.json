@@ -1,0 +1,25 @@
+{
+    "title": "transaction details",        
+    "help": "transaction help",
+    "submit": "none",
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["tdatetime"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["ttype","tinfo","prov","citem_id","prov_json"],
+            "layouts": {
+                "_default": "6",
+                "prov_json": "12"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "stat"
+    }
+}

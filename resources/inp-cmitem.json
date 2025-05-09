@@ -1,0 +1,14 @@
+{
+    "title": "custom menu item",        
+    "help": "menu item help",        
+    "groups": [{
+        "style": "basic",        
+        "elements": "customMenuItem",
+        "layouts": {
+            "_default": "6"            
+        }
+    }],
+    "types": {
+        "_default": "input"
+    }
+}

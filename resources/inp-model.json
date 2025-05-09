@@ -1,0 +1,22 @@
+{
+    "title": "model details",        
+    "help": "model help",        
+    "groups": [{
+        "style": "basic",        
+        "elements": "model",
+        "layouts": {
+            "_default": "6",
+            "description": "12",
+            "biopic_url": "6",
+            "banner_url": "6"    
+        }
+    }],
+    "types": {
+        "_default": "input",
+        "description": "text",
+        "gender": "select|Female|Male|Transgender",
+        "sexuality": "select|Straight|Gay",        
+        "biopic_url": "poster_basic",
+        "banner_url": "poster_basic"
+    }
+}

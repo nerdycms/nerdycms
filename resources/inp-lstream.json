@@ -1,0 +1,57 @@
+{
+    "title": "video details",        
+    "help": "enter details then press submit",        
+    "groups": [
+        {
+            "style": "header",        
+            "elements": ["publish_status","show_on_homepage"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["live_stream1","live_chat"],
+            "layouts": {
+                "_default": "9",
+                "live_chat": "3"
+            }
+        },
+        {
+            "style": "basic",        
+                "elements": ["casting_on","title","seo_url","sexuality","category","quality","view_price"],
+            "layouts": {
+                "_default": "3",
+                "poster_url": "12",
+                "video_url": "12"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["description","tags","models","trailer_url","poster_url","image_gallery"],
+            "layouts": {
+                "_default": "12"
+            }
+        }
+    ],
+    "types": {
+        "_default": "input",
+        "live_chat": "chat",
+        "title": "!input",
+        "trailer_url": "upload",
+        "video_url": "upload",
+        "poster_url": "poster",
+        "image_gallery": "gallery",
+        "show_on_homepage": "check",
+        "live_stream": "live_sel",
+        "live_stream1": "live_stream",
+        "sexuality": "select|Straight|Gay",
+        "category": "datalist|$category",
+        "description": "text",
+        "tags": "tags|$tag",
+        "models": "tags|$model",
+        "casting_on": "!date",
+        "quality": "select|4K|HD|SD",
+        "publish_status": "select|Draft|Published"        
+    }
+}

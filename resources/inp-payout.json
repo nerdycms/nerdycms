@@ -1,0 +1,19 @@
+{
+    "title": "payout",        
+    "help": "payout help",        
+    "groups": [
+        {
+            "style": "basic",        
+            "elements": ["deposit_date","bank_name","amount","reference","notes"],
+            "layouts": {
+                "_default": "4",
+                "notes": "12"            
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "deposit_date": "date",
+        "notes": "text"
+    }
+}

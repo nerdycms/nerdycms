@@ -1,0 +1,25 @@
+{
+    "title": "twitter details",        
+    "help": "twitter help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["auto_post_enabled","login_enabled"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  ["consumer_key","consumer_secret","account_id","access_token","access_token_secret","bearer_token"],
+            "layouts": {
+                "_default": "6"
+            }
+        }        
+    ],
+    "types": {
+        "_default": "input",
+        "login_enabled": "check",
+        "auto_post_enabled": "check"
+    }
+}

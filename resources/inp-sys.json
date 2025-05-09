@@ -1,0 +1,25 @@
+{
+    "title": "system settings",        
+    "help": "system setting help",    
+    "groups": [  
+        {
+            "style": "header",        
+            "elements": ["maintenance_mode"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["report_content_email","support_request_email","direct_signin_background_url","direct_signup_background_url"],
+            "layouts": {
+                "_default": "6"
+            }
+        }
+    ],
+    "types": {
+        "_default": "input",
+        "maintenance_mode": "check",
+        "blank": "hidden"
+    }
+}

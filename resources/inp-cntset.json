@@ -1,0 +1,40 @@
+{
+    "title": "content settings",        
+    "help": "content settings help",    
+    "groups": [          
+        {
+            "style": "basic",        
+            "elements":  [ "require_age_verification","hide_nav_icon_text","hide_categories","hide_tags","hide_blog","hide_chat","hide_about","hide_merch","hide_contact","hide_video_categories","hide_video_quality_selector","hide_top_pagination","hide_like_stat",
+                           "hide_comments","hide_models_top_preview","hide_home_banners",
+                           "hide_more_videos","hide_related_videos","likes_above_video","hide_video_tags","disable_free_signup",
+                           "disable_pay_per_view","prevent_theme_mode_switch","female_only_models_page","hide_model_banner","hide_model_latest","video_list_tagline","video_banners_tagline"],
+            "layouts": {
+                "_default": "2",                
+                "video_list_tagline": "12",
+                "video_banners_tagline": "12"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  [ "hide_profile_announcements","hide_profile_purchases","hide_profile_favorite_videos",
+                           "hide_profile_favorite_models","hide_upgrade_account","hide_wallet","hide_referrals"],
+            "layouts": {
+                "_default": "2"                               
+            }
+        },
+        {
+            "style": "basic",        
+            "elements":  [ "enable_video_overlay","video_overlay_position","video_overlay_file","hide_video_release_date","hide_banner_titles","play_preview_before_video"],
+            "layouts": {
+                "_default": "2"                               
+            }
+        }
+    ],
+    "types": {
+        "_default": "check",        
+        "video_list_tagline": "text",
+        "video_banners_tagline": "text",
+        "video_overlay_file": "file",
+        "video_overlay_position": "select|Bottom center|Top left|Top right|Bottom left|Bottom right|Top center"
+    }
+}

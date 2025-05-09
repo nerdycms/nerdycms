@@ -1,0 +1,33 @@
+{
+    "title": "trailer details",        
+    "help": "trailer details then press submit",        
+    "groups": [
+        {
+            "style": "header",        
+            "elements": ["enabled"],
+            "layouts": {
+                "_default": "m-1 float-end"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["label"],
+            "layouts": {
+                "_default": "12"
+            }
+        },
+        {
+            "style": "basic",        
+            "elements": ["video_url","poster_url"],
+            "layouts": {
+                "_default": "12"
+            }
+        }
+    ],
+    "types": {
+        "_default": "input",
+        "video_url": "upload",
+        "poster_url": "poster",
+        "enabled": "check"
+    }
+}
